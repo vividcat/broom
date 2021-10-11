@@ -1,6 +1,6 @@
 {
   "name": "@vividcat/broom",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "A collection of configuration files containing prettier, eslint, stylelint",
   "keywords": [
     "eslint",
@@ -23,8 +23,8 @@
     "@babel/preset-typescript": "^7.12.7",
     "@typescript-eslint/eslint-plugin": "^4.10.0",
     "@typescript-eslint/parser": "^4.10.0",
-    "@vividcat/eslint-config": "^1.0.1",
-    "@vividcat/eslint-config-typescript": "^1.0.1",
+    "@vividcat/eslint-config": "^1.0.0",
+    "@vividcat/eslint-config-typescript": "^1.0.0",
     "eslint": "^7.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-formatter-pretty": "^4.0.0",

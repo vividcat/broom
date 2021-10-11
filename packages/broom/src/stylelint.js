@@ -1,3 +1,10 @@
+/*!
+ * https://stylelint.io/user-guide/rules/list
+ *
+ * - null (to turn the rule off)
+ * - a single value (the primary option)
+ * - an array with two values ([primary option, secondary options])
+ */
 module.exports = {
   extends: [
     'stylelint-config-standard',

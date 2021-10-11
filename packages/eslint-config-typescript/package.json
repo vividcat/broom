@@ -1,6 +1,6 @@
 {
   "name": "@vividcat/eslint-config-typescript",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "author": "vividcat",
   "license": "MIT",
   "main": "index.js",
@@ -22,6 +22,6 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
-    "@vividcat/eslint-config": "^1.0.1"
+    "@vividcat/eslint-config": "^1.0.0"
   }
 }
