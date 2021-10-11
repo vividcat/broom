@@ -1,0 +1,27 @@
+{
+  "name": "@vividcat/eslint-config-typescript",
+  "version": "1.0.0",
+  "author": "vividcat",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vividcat/broom.git"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "typescript": "^4.4.3"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.6.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "@vividcat/eslint-config": "^1.0.0"
+  }
+}

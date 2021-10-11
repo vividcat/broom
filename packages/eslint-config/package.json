@@ -1,0 +1,31 @@
+{
+  "name": "@vividcat/eslint-config",
+  "version": "1.0.0",
+  "author": "vividcat",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vividcat/broom.git"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.6.0"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-unicorn": "^36.0.0"
+  }
+}
