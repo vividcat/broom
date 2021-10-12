@@ -1,6 +1,6 @@
 {
   "name": "@vividcat/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "vividcat",
   "license": "MIT",
   "main": "index.js",
