@@ -27,5 +27,6 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-unicorn": "^36.0.0"
-  }
+  },
+  "gitHead": "68295e89a688bba3f7467fca91dee4fa51ff1b26"
 }
