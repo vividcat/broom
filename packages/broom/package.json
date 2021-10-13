@@ -28,7 +28,7 @@
     "@typescript-eslint/parser": "^4.10.0",
     "@vividcat/eslint-config": "^1.0.2",
     "@vividcat/eslint-config-typescript": "^1.0.3",
-    "eslint": "^7.0.0",
+    "eslint": "^7.12.1",
     "fast-glob": "^3.2.4",
     "prettier": "^2.3.2",
     "prettier-plugin-two-style-order": "^1.0.0",

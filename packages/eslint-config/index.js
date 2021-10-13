@@ -105,7 +105,7 @@ module.exports = {
     'eslint-comments/disable-enable-pair': 'off',
 
     // import
-    'import/order': 'error',
+    'import/order': 'off', // 移除，好像强迫症患者啊
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off'
