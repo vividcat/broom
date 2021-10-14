@@ -106,9 +106,10 @@ module.exports = {
 
     // import
     'import/order': 'off', // 移除，好像强迫症患者啊
-    'import/no-mutable-exports': 'error',
+    'import/no-mutable-exports': 'off',
     'import/no-unresolved': 'off',
-    'import/no-absolute-path': 'off'
+    'import/no-absolute-path': 'off',
+    'import/no-named-as-default-member': 'off'
   },
   overrides: [
     {
