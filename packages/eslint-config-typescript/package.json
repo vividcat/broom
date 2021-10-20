@@ -22,7 +22,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
-    "@vividcat/eslint-config": "^1.0.3"
+    "@vividcat/eslint-config": "^2.0.0"
   },
   "gitHead": "68295e89a688bba3f7467fca91dee4fa51ff1b26"
 }
