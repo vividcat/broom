@@ -1,6 +1,6 @@
 {
   "name": "@vividcat/eslint-config",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "author": "vividcat",
   "license": "MIT",
   "main": "index.js",
@@ -15,18 +15,9 @@
     "lint": "eslint . --config=index.js"
   },
   "devDependencies": {
-    "eslint": "^7.32.0"
+    "eslint": "^7.0.0||^8.0.0"
   },
   "peerDependencies": {
-    "eslint": ">=7.12.1"
-  },
-  "dependencies": {
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-unicorn": "^36.0.0"
-  },
-  "gitHead": "68295e89a688bba3f7467fca91dee4fa51ff1b26"
+    "eslint": ">=7.0.0 || >=8.0.0"
+  }
 }
