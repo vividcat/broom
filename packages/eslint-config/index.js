@@ -45,7 +45,7 @@ module.exports = {
     'comma-style': ['error', 'last'], // 强制使用一致的逗号风格
     'curly': ['error', 'multi-line'], // 强制所有控制语句使用一致的括号风格
     'default-case': 'error', // 要求 switch 语句中有 default 分支
-    'default-case-last': 'error', // 要求 switch 语句中有 default 分支放在末尾
+    'default-case-last': 'off', // 要求 switch 语句中有 default 分支放在末尾
     'dot-location': ['error', 'property'], // 强制在点号之前或之后换行
     'eol-last': 'error', // 要求或禁止文件末尾存在空行
     'eqeqeq': ['error', 'allow-null'], // 要求使用 === 和 !==
@@ -55,7 +55,7 @@ module.exports = {
     'indent': ['error', 2, { // 强制使用一致的缩进
       'SwitchCase': 1,
       'VariableDeclarator': 'first',
-      'outerIIFEBody': 'off'
+      'outerIIFEBody': 0
     }],
     'jsx-quotes': ['error', 'prefer-double'], // 强制在 JSX 属性中一致地使用双引号或单引号
     'key-spacing': 'error', // 强制在对象字面量的属性中键和值之间使用一致的间距
