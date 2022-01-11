@@ -3,11 +3,7 @@ module.exports = {
     '@antfu/vue'
   ],
   rules: {
-    'comma-dangle': ['error', 'never'],
     'curly': ['error', 'multi-line'],
-    'brace-style': ['error', '1tbs', {
-      'allowSingleLine': true
-    }],
     'no-restricted-syntax': [
       'error',
       'DebuggerStatement',
@@ -18,6 +14,11 @@ module.exports = {
       'anonymous': 'never',
       'named': 'never',
       'asyncArrow': 'always'
-    }]
+    }],
+
+    'comma-dangle': 'off',
+    '@typescript-eslint/comma-dangle': ['error', 'never'],
+    'brace-style': 'off',
+    '@typescript-eslint/brace-style': ['error', '1tbs', { allowSingleLine: true }]
   }
 }
