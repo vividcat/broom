@@ -1,0 +1,23 @@
+{
+  "name": "@vividcat/eslint-config-vue3",
+  "version": "0.0.0",
+  "author": "vividcat",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vividcat/broom.git"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0"
+  },
+  "dependencies": {
+    "@antfu/eslint-config-vue": "^0.15.0"
+  }
+}
