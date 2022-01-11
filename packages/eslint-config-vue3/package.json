@@ -1,6 +1,6 @@
 {
   "name": "@vividcat/eslint-config-vue3",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "vividcat",
   "license": "MIT",
   "main": "index.js",
