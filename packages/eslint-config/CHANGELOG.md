@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.2](https://github.com/vividcat/broom/compare/@vividcat/eslint-config@2.1.0...@vividcat/eslint-config@2.1.2) (2022-03-07)
+
+
+### Performance Improvements
+
+* 兼容低版本 eslint ([9de8ec6](https://github.com/vividcat/broom/commit/9de8ec65cf1d3600ca0a3f747eb7c848725cb3f2))
+
+
+
+
+
 # [2.1.0](https://github.com/vividcat/broom/compare/@vividcat/eslint-config@1.0.3...@vividcat/eslint-config@2.1.0) (2021-10-20)
 
 

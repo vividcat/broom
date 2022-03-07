@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.6](https://github.com/vividcat/broom/compare/@vividcat/eslint-config-typescript@1.0.5...@vividcat/eslint-config-typescript@1.0.6) (2022-03-07)
+
+
+### Bug Fixes
+
+* ts not work ([2c169c3](https://github.com/vividcat/broom/commit/2c169c36c91cc543bc156aa34354afd544d41b09))
+
+
+
+
+
 ## [1.0.5](https://github.com/vividcat/broom/compare/@vividcat/eslint-config-typescript@1.0.4...@vividcat/eslint-config-typescript@1.0.5) (2021-10-20)
 
 **Note:** Version bump only for package @vividcat/eslint-config-typescript
