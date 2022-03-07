@@ -2,6 +2,16 @@ const basic = require('@vividcat/eslint-config')
 
 /** @type { import('eslint').Linter.BaseConfig } */
 module.exports = {
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+      experimentalObjectRestSpread: true
+    }
+  },
+  plugins: [ '@typescript-eslint' ],
   extends: [
     '@vividcat',
     'plugin:@typescript-eslint/recommended'
