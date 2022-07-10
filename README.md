@@ -11,7 +11,7 @@
 - `if / else` 适当放松，无需刻意消除花括弧
 
 
-对比 1.*，2.* 有些规则作出了变化：
+对比 1.x，2.x 有些规则作出了变化：
 
 1. [quote-props](https://eslint.org/docs/latest/rules/quote-props)
 
