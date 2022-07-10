@@ -1,0 +1,23 @@
+{
+  "name": "@vividcat/eslint-config",
+  "version": "3.0.0",
+  "author": "vividcat",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vividcat/broom.git"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^0.25.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  }
+}
