@@ -1,6 +1,6 @@
 {
   "name": "@vividcat/eslint-config-typescript",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "vividcat",
   "license": "MIT",
   "main": "index.js",
