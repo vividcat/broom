@@ -1,6 +1,6 @@
-# broom
+# @vividcat/broom
 
-![version](https://img.shields.io/badge/broom-v3.0.0-%234d9375?style=for-the-badge)
+[![npm version][npm-version-src]][npm-version-href]
 
 <br>
 
@@ -20,3 +20,7 @@
 2. [comma-dangle](https://typescript-eslint.io/rules/comma-dangle/)
 
 调整： "末尾无逗号" -> "必须存在逗号"包裹
+
+<!-- Badges -->
+[npm-version-src]: https://img.shields.io/badge/version-3.0.0-%234d9375?style=for-the-badge
+[npm-version-href]: https://www.npmjs.com/package/@vividcat/broom
