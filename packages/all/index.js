@@ -18,12 +18,6 @@ module.exports = {
       'WithStatement',
     ],
     'quote-props': ['error', 'as-needed', { keywords: true }],
-    'space-before-function-paren': ['error', {
-      anonymous: 'never',
-      named: 'never',
-      asyncArrow: 'always',
-    }],
-
     'brace-style': 'off',
     '@typescript-eslint/brace-style': ['error', '1tbs', { allowSingleLine: true }],
   },
