@@ -20,5 +20,7 @@ module.exports = {
     'quote-props': ['error', 'as-needed', { keywords: true }],
     'brace-style': 'off',
     '@typescript-eslint/brace-style': ['error', '1tbs', { allowSingleLine: true }],
+    'antfu/if-newline': 'off',
+    'template-curly-spacing': ['error', 'always'],
   },
 }
