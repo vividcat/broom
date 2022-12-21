@@ -1,16 +1,20 @@
 {
-  "version": "3.0.1",
+  "version": "3.0.2",
   "private": true,
   "packageManager": "pnpm@7.3.0",
   "scripts": {
     "lint": "eslint .",
     "preinstall": "npx only-allow pnpm",
-    "release": "pnpm -r publish --no-git-checks"
+    "release": "pnpm -r publish --no-git-checks",
+    "up": "taze major -I",
+    "up:all": "pnpm run -r --parallel up"
   },
   "devDependencies": {
     "@vividcat/eslint-config": "workspace:*",
     "bumpp": "^8.2.1",
-    "eslint": "*",
-    "typescript": "^4.7.4"
+    "eslint": "^8.30.0",
+    "taze": "^0.8.5",
+    "typescript": "^4.9.4"
   }
 }
+

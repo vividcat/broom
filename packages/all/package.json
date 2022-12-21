@@ -1,6 +1,6 @@
 {
   "name": "@vividcat/eslint-config",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "author": "vividcat",
   "license": "MIT",
   "main": "index.js",
@@ -12,12 +12,16 @@
     "url": "https://github.com/vividcat/broom.git"
   },
   "scripts": {
-    "lint": "eslint . --config=index.js"
+    "lint": "eslint . --config=index.js",
+    "up": "taze major -I"
   },
   "dependencies": {
-    "@antfu/eslint-config": "^0.25.2"
+    "@antfu/eslint-config": "^0.34.0",
+    "eslint": "^8.30.0",
+    "taze": "^0.8.5"
   },
   "peerDependencies": {
-    "eslint": ">=7.4.0"
+    "eslint": ">=7.4.0",
+    "taze": "^0.8.5"
   }
 }
