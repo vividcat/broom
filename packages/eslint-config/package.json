@@ -1,0 +1,27 @@
+{
+  "name": "@vividcat/eslint-config",
+  "version": "3.1.0",
+  "author": "hezulong1<https://github.com/hezulong1>",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vividcat/broom.git"
+  },
+  "scripts": {
+    "up": "taze major -I"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^0.41.0"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "files": [
+    "index.js"
+  ]
+}
