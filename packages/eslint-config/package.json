@@ -1,6 +1,6 @@
 {
   "name": "@vividcat/eslint-config",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "author": "hezulong1<https://github.com/hezulong1>",
   "license": "MIT",
   "main": "index.js",
@@ -12,14 +12,11 @@
     "type": "git",
     "url": "https://github.com/vividcat/broom.git"
   },
-  "scripts": {
-    "up": "taze major -I"
-  },
   "dependencies": {
-    "@antfu/eslint-config": "^0.41.0"
+    "@antfu/eslint-config": "latest"
   },
   "keywords": [
-    "eslint-config"
+    "vividcat"
   ],
   "files": [
     "index.js"

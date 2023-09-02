@@ -1,13 +1,13 @@
 {
-  "version": "3.1.0",
+  "version": "3.1.1",
   "private": true,
   "packageManager": "pnpm@8.5.1",
   "scripts": {
     "lint": "eslint .",
+    "version": "bumpp --no-commit --no-tag --no-push",
     "release": "pnpm -r publish --no-git-checks",
-    "version": "bumpp",
     "up": "taze major -I",
-    "up:pkg": "pnpm run -r --parallel up"
+    "preinstall": "npx only-allow pnpm"
   },
   "devDependencies": {
     "@vividcat/eslint-config": "workspace:*",

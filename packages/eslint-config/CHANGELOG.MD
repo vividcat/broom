@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v3.1.1(2023-09-02)
+
+* __antfu/top-level-function__: `'off'`
+
 ## v3.1.0(2023-09-01)
 
 * __vue/component-tags-order__: `'off'`

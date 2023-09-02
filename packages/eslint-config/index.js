@@ -20,6 +20,7 @@ module.exports = {
     'brace-style': 'off',
     '@typescript-eslint/brace-style': ['error', '1tbs', { allowSingleLine: true }],
     'antfu/if-newline': 'off',
+    'antfu/top-level-function': 'off',
     // Vue
     'vue/component-tags-order': 'off',
     'vue/no-deprecated-functional-template': 'off',
