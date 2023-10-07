@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v3.1.2(2023-10-07)
+
+* Fixed `@antfu/eslint-config` to `0.43.1`
+
 ## v3.1.1(2023-09-02)
 
 * __antfu/top-level-function__: `'off'`
