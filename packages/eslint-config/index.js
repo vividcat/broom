@@ -21,6 +21,7 @@ module.exports = {
     '@typescript-eslint/brace-style': ['error', '1tbs', { allowSingleLine: true }],
     'antfu/if-newline': 'off',
     'antfu/top-level-function': 'off',
+    'antfu/no-const-enum': 'off',
     // Vue
     'vue/component-tags-order': 'off',
     'vue/no-deprecated-functional-template': 'off',
