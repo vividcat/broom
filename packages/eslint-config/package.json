@@ -1,24 +1,25 @@
 {
   "name": "@vividcat/eslint-config",
-  "version": "3.1.2",
+  "version": "3.1.3",
   "author": "hezulong1<https://github.com/hezulong1>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vividcat/broom.git",
+    "directory": "packages/eslint-config"
+  },
+  "keywords": [
+    "vividcat"
+  ],
   "main": "index.js",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vividcat/broom.git"
-  },
-  "dependencies": {
-    "@antfu/eslint-config": "0.43.1"
-  },
-  "keywords": [
-    "vividcat"
-  ],
   "files": [
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "@antfu/eslint-config": "0.43.1"
+  }
 }

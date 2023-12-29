@@ -1,7 +1,9 @@
 {
-  "version": "3.1.2",
   "private": true,
   "packageManager": "pnpm@8.5.1",
+  "engines": {
+    "node": ">=16.17.0"
+  },
   "scripts": {
     "lint": "eslint .",
     "version": "bumpp --no-commit --no-tag --no-push",
@@ -15,13 +17,7 @@
     "eslint": "^8.48.0",
     "taze": "^0.11.2"
   },
-  "engines": {
-    "node": ">=16.17.0"
-  },
   "eslintConfig": {
-    "extends": "@vividcat",
-    "ignorePatterns": [
-      "fixtrue"
-    ]
+    "extends": "@vividcat"
   }
 }

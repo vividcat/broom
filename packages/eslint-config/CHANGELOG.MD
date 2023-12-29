@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v3.1.3(2023-12-29)
+
+* __spaced-comment__: `'off'`
+* __@stylistic/js/spaced-comment__: `['error', 'always', { markers: ['/'], exceptions: ['#__PURE__', '@__PURE__'] }]`
+
 ## v3.1.2(2023-10-07)
 
 * Fixed `@antfu/eslint-config` to `0.43.1`

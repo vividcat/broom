@@ -8,7 +8,7 @@ Collection of varies rules, currently including [`eslint`](https://eslint.org/).
 
 [![antfu code style][antfu-code-style-icon]][antfu-code-style-href]
 
-Modified based on [`@antfu/eslint-config`][antfu-code-style-href], details can be found in `packages/eslint-config`.
+Modified based on [`@antfu/eslint-config@0.43.1`][antfu-code-style-href], details can be found in `packages/eslint-config`.
 
 <!-- Badges -->
 [version-icon]: https://img.shields.io/badge/version-3.1.0-257855?style=for-the-badge

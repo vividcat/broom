@@ -17,8 +17,14 @@ module.exports = {
       'LabeledStatement',
       'WithStatement',
     ],
+
     'brace-style': 'off',
     '@typescript-eslint/brace-style': ['error', '1tbs', { allowSingleLine: true }],
+
+    'spaced-comment': 'off',
+    '@stylistic/js/spaced-comment': ['error', 'always', { markers: ['/'], exceptions: ['#__PURE__', '@__PURE__'] }],
+
+    // Antfu
     'antfu/if-newline': 'off',
     'antfu/top-level-function': 'off',
     'antfu/no-const-enum': 'off',
@@ -31,7 +37,6 @@ module.exports = {
     'vue/singleline-html-element-content-newline': 'off',
 
     'quote-props': ['error', 'consistent-as-needed'],
-    'spaced-comment': ['error', 'always', { exceptions: ['#__PURE__'] }],
     'node/no-callback-literal': 'off',
     'import/namespace': 'off',
   },
